@@ -18,7 +18,7 @@ Basics of RISCV
 
 Flow from sowtware applications to hardware
 
-![image](https://user-images.githubusercontent.com/86380243/123853895-fa1c3980-d8eb-11eb-83db-a50cb2a15f73.png)
+![image](https://user-images.githubusercontent.com/86380243/123854332-947c7d00-d8ec-11eb-85f2-8b3aa39e1a36.png)
                                                                                             Ref: www.vsdiat.com
 
 
