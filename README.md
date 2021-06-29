@@ -20,6 +20,16 @@ Flow from sowtware applications to hardware
 
 ![image](https://user-images.githubusercontent.com/86380243/123854332-947c7d00-d8ec-11eb-85f2-8b3aa39e1a36.png)
                                                                                             Ref: www.vsdiat.com
+                                                                                            
+                                                                                            
+**Day1_SK2: SoC Design and OpenLane**
+
+![image](https://user-images.githubusercontent.com/86380243/123863692-e8409380-d8f7-11eb-9075-d3711c02c95b.png)
+
+ASIC flow
+
+![image](https://user-images.githubusercontent.com/86380243/123864814-2e4a2700-d8f9-11eb-8df5-6e430ff29b5c.png)
+
 
 
 
