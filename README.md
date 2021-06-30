@@ -117,3 +117,24 @@ THe config.tcl inside runs directiry shows parameters taken during the prep desi
 
 ![image](https://user-images.githubusercontent.com/86380243/123954605-9ab73b80-d976-11eb-8a14-e49ae1630d8e.png)
 
+The run_synthesis command will give all reports and the cell counts
+
+![image](https://user-images.githubusercontent.com/86380243/123955831-12399a80-d978-11eb-8509-37ad0b2a6af5.png)
+
+From above, we calculate flop ratio as NO. of DFF/ Total no. of cells
+
+Flop ratio for the picorv32a design is 1613/14876 = 0.10 (10.84%)
+
+The SYNTHESIS RESULTS directory:
+
+![image](https://user-images.githubusercontent.com/86380243/123961120-06e96d80-d97e-11eb-8535-41a23402b924.png)
+
+As we can see the netlis.v is generated
+
+![image](https://user-images.githubusercontent.com/86380243/123961320-35ffdf00-d97e-11eb-8294-599c8a530951.png)
+
+Synthesis report:
+
+![image](https://user-images.githubusercontent.com/86380243/123961511-719aa900-d97e-11eb-8004-a3e36d80b763.png)
+
+![image](https://user-images.githubusercontent.com/86380243/123961568-7d866b00-d97e-11eb-9659-d1eff2fbe4cd.png)
