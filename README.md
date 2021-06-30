@@ -168,6 +168,20 @@ In reality, the utilization factor should be generally around 0.5 or 0.6 and the
   
   ![image](https://user-images.githubusercontent.com/86380243/124001387-9143c880-d9a2-11eb-96cd-e28ae7419ad1.png)
 
+- Decoupling capacitors: Suround pre placed cells with decouplinng capacitors as they are mostly power hungry and need power intantaneuously. Due to IR drops on the power rails, the current might not be within noise margin at the input of the macro and this can lead to the entire chip to go for a toss.
+
+![image](https://user-images.githubusercontent.com/86380243/124002190-702fa780-d9a3-11eb-9f20-09cf3c6d1ae4.png)
+
+  a) The voltage should not be in the undefined range as it can either go to logic 0 or logic 1.
+  
+  b) The decoupling capacitors act as battery to provide power to the circuits directly. During switching activity, the capacitor discharges and when not switching, it charges through the power supply.
+ 
+ ![image](https://user-images.githubusercontent.com/86380243/124002465-c56bb900-d9a3-11eb-84c9-c0012ea0c833.png)
+ 
+ ![image](https://user-images.githubusercontent.com/86380243/124002626-f9df7500-d9a3-11eb-97b2-c1586de0ab8f.png)
+
+
+
 
 
   
