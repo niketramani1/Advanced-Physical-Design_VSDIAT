@@ -265,7 +265,7 @@ The standard cells are not placed in the floorplan but are present on the lower 
 ![image](https://user-images.githubusercontent.com/86380243/124019640-4aac9900-d9b7-11eb-975c-54538eafb2d8.png)
 
         
-**Day1_SK2: Library binding and placement **
+**Day2_SK2: Library binding and placement **
 
 - Binding netlist with physical cells
   - Take each and every component of the netlist is given proper width and height
@@ -369,7 +369,33 @@ NOTE: In openlane the power generation is done AFTER CTS and not during floorpla
     All this is given to GUNA and outpts are timing, noise and power characterizations.
 
     
+    **Day2_SK4: Timing Characterizations**
+    
+    - Different voltage levels required to calculate slew and propagation delay
+    
+    ![image](https://user-images.githubusercontent.com/86380243/124042219-5b203c00-d9d6-11eb-9915-79e2bcb4a506.png)
+    
+    - Propagation Delay:
 
+    ![image](https://user-images.githubusercontent.com/86380243/124042348-a5a1b880-d9d6-11eb-9c48-737cd6c8227c.png)
+    
+      - Issues with setting a threshold point
+
+        Now, if the threshold of 50% shifts above, then we get a negative delay and is not acceptable. This means we are geiing ouput before input. This is poor choice of threshold point.
+        
+        ![image](https://user-images.githubusercontent.com/86380243/124042541-0d580380-d9d7-11eb-981c-163a8c2194e5.png)
+        
+        At times even when 50 %, we get negative delay. IF there is a huge net between two inverters( buffer with 2 back to back as seen in above figures). Basically huge slew
+        
+        ![image](https://user-images.githubusercontent.com/86380243/124042694-63c54200-d9d7-11eb-8638-0970d5fe3629.png)
+        
+        ![image](https://user-images.githubusercontent.com/86380243/124042726-78a1d580-d9d7-11eb-8fb5-1701397a5fe8.png)
+
+    - Transition Delay (Slew): Difference between high and low rise/fall (20-80% of VDD)
+
+        ![image](https://user-images.githubusercontent.com/86380243/124042888-d6ceb880-d9d7-11eb-8dba-4d421dd4aaf8.png)
+  
+      
     
 
 
