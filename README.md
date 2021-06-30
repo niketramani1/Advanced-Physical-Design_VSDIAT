@@ -326,6 +326,30 @@ NOTE: In openlane the power generation is done AFTER CTS and not during floorpla
  
  ![image](https://user-images.githubusercontent.com/86380243/124034285-00ccae80-d9c9-11eb-9274-d331fe96ac95.png)
 
+ ![image](https://user-images.githubusercontent.com/86380243/124034622-75075200-d9c9-11eb-9c24-48427e9df258.png)
+
+  - Input rules: 
+  ![image](https://user-images.githubusercontent.com/86380243/124034965-e2b37e00-d9c9-11eb-9fab-4b01c2717e84.png)
+  
+   SPICE models:
+  ![image](https://user-images.githubusercontent.com/86380243/124035087-0d9dd200-d9ca-11eb-94b1-0bf804708bf1.png)
+  
+   Library and user defined specs: Cell height, supply voltage, metal layers, pin location, drawn gate length
+   
+  - Design steps:
+    - Circuit Design: Implement function, model PMOS and NMOS wrt W/L 
+    ![image](https://user-images.githubusercontent.com/86380243/124036226-aed95800-d9cb-11eb-9a59-947fc27b3f94.png)
+    
+    - Layout Design: Get the dual Euler's trail for PMOS and NMOS
+
+
+  
+
+
+  
+  
+
+
         
 
 
