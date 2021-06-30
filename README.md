@@ -194,7 +194,21 @@ In reality, the utilization factor should be generally around 0.5 or 0.6 and the
  ![image](https://user-images.githubusercontent.com/86380243/124005062-a884b500-d9a6-11eb-9c92-e681187d0f87.png)
 
 
-  
+ - Pin placement and logical cell blockage 
+
+   - Lets consider the below circuit
+  ![image](https://user-images.githubusercontent.com/86380243/124008267-3e6e0f00-d9aa-11eb-98b4-a28ad892b233.png)
+   
+   - Place the pin as per the design requirements also based on minimum routing connectivity
+   ![image](https://user-images.githubusercontent.com/86380243/124008867-e7b50500-d9aa-11eb-9b1b-365e16146cf6.png)
+   
+   - The clock pins should have least resistance and should be more in size and least resistance.
+   ![image](https://user-images.githubusercontent.com/86380243/124008986-0e733b80-d9ab-11eb-85e0-77084f393035.png)
+   
+ - Logical cell blockage: No cells to be placed in the region between the core and die.
+ ![image](https://user-images.githubusercontent.com/86380243/124009188-4c705f80-d9ab-11eb-89a1-68672705315a.png)
+
+
 
 
 
