@@ -265,8 +265,45 @@ The standard cells are not placed in the floorplan but are present on the lower 
 ![image](https://user-images.githubusercontent.com/86380243/124019640-4aac9900-d9b7-11eb-975c-54538eafb2d8.png)
 
         
-        
-        
+**Day1_SK2: Library binding and placement **
+
+- Binding netlist with physical cells
+  - Take each and every component of the netlist is given proper width and height
+  - All the info of width and height etc. along with timing info is present in library file (.lib). It will also have required conditions. 
+  - The cells of different drive strengths of a same cell. Bigger the size, smaller the resistance.
+  - Based on timing the cells are selected.
+  ![image](https://user-images.githubusercontent.com/86380243/124024569-61ee8500-d9bd-11eb-8e27-d9b4b9e5d82d.png)
+  
+- Placement
+  - Now we have floorplan, the netlist and the library of cells. 
+  - We need to place the netlist on the floorplan
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124024744-9f531280-d9bd-11eb-9160-6a56d52ad1d6.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124025837-eee60e00-d9be-11eb-98de-fd3deea73069.png)
+
+- Optimized placement
+  - This is needed if distance between two cells is large. Also to maintain signal integrity. 
+  - We can place buffers based on wire length estimation and also the wire capacitance.
+  - This is a tradeoff bween perforamnce and area as the buffers will help to improve performance but will compromise on area
+  - The signal transition decides if we have to place a buffer. There is a range for the slew and transition should be within the given range.
+  - If there is a criss cross connection, we use different metal layers
+ 
+![image](https://user-images.githubusercontent.com/86380243/124027657-205fd900-d9c1-11eb-8ad7-98e678e095ee.png)
+
+- Need for chRcterization
+  - The library characterization is basically modelling the cells with respect to timing and functionality 
+  ![image](https://user-images.githubusercontent.com/86380243/124028558-21453a80-d9c2-11eb-9654-f16ddf0c4d9f.png)
+
+- Placement on open lane
+  - Congestion driven placement and not timing driven
+    - Global placement: Coarse placement with no legalization (placement of std cells inside rows abutted and no overlap). The main objective is to reduce wire length. In open lane, we use Half Parameter Wire Length (HPWM). The HPWM is reducing wirelength and the OvFL should decrease (design will converge). 
+    - Detailed placement
+
+
+
+
+
         
 
 
