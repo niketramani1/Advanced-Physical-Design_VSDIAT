@@ -300,7 +300,20 @@ The standard cells are not placed in the floorplan but are present on the lower 
     - Global placement: Coarse placement with no legalization (placement of std cells inside rows abutted and no overlap). The main objective is to reduce wire length. In open lane, we use Half Parameter Wire Length (HPWM). The HPWM is reducing wirelength and the OvFL should decrease (design will converge). 
     - Detailed placement
 
+  The command **run_placement** will do both the above placement 
+  
+  As we can see the DEF file is created in the placement directory:
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124030987-c2cd8b80-d9c4-11eb-942b-ee18fb22c224.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124031129-edb7df80-d9c4-11eb-81c8-fcd120c9d3fd.png)
+  
+  As we can see that the standard cells are placed inside the std cell rows:
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124031401-44251e00-d9c5-11eb-843e-2510988c01e3.png)
 
+
+NOTE: In openlane the power generation is done AFTER CTS and not during floorplan
 
 
 
