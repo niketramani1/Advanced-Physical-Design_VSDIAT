@@ -163,6 +163,11 @@ In reality, the utilization factor should be generally around 0.5 or 0.6 and the
   - Also there are multiple IPs which are available like the Clockgating circuit, memory etc. which we can integrate with our design and the arrangement of these IPs is nothing but floorplanning.
   
   ![image](https://user-images.githubusercontent.com/86380243/124000650-cdc2f480-d9a1-11eb-8c77-7f5ca7ab3990.png)
+  
+  - Once the macros are placed, the APR tool will automatically detect the macros and will not touch.
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124001387-9143c880-d9a2-11eb-96cd-e28ae7419ad1.png)
+
 
 
   
