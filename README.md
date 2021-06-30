@@ -338,9 +338,41 @@ NOTE: In openlane the power generation is done AFTER CTS and not during floorpla
    
   - Design steps:
     - Circuit Design: Implement function, model PMOS and NMOS wrt W/L 
+    
     ![image](https://user-images.githubusercontent.com/86380243/124036226-aed95800-d9cb-11eb-9a59-947fc27b3f94.png)
     
-    - Layout Design: Get the dual Euler's trail for PMOS and NMOS
+    - Layout Design: Get the dual Euler's trail for PMOS and NMOS and output is GDSII, LEF, extracted SPICE netlist. 
+    
+    ![image](https://user-images.githubusercontent.com/86380243/124037423-8a7e7b00-d9cd-11eb-923b-c8b98f92fa0b.png)
+    
+    - Characterization: Timing, noise and power (.libs) and also functionality
+    a) Read model file
+    
+    b) Extracted spice netlist
+    
+    c) Recognize behaviour of buffer
+    
+    d) Read the subckt of the design
+    
+    e) Attach necessary power sources
+    
+    f) Apply stimulus
+    
+    g) Output capacitance 
+    
+    h) Provide necessary simulation command (.tran for transient and .dc for dc simulation)
+    
+    ![image](https://user-images.githubusercontent.com/86380243/124038625-6d4aac00-d9cf-11eb-856f-70bd97c9be88.png)
+ 
+    ![image](https://user-images.githubusercontent.com/86380243/124038476-307eb500-d9cf-11eb-9583-55e239324f51.png)
+
+    
+
+    
+
+
+
+    
 
 
   
