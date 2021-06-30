@@ -140,3 +140,17 @@ Synthesis report:
 ![image](https://user-images.githubusercontent.com/86380243/123961511-719aa900-d97e-11eb-8004-a3e36d80b763.png)
 
 ![image](https://user-images.githubusercontent.com/86380243/123961568-7d866b00-d97e-11eb-9659-d1eff2fbe4cd.png)
+
+
+## **Day 2**: Good floorplan vs Bad floorpan and introduction to library cells
+
+**Day2_SK1: Chip floorplanning considerations**
+
+- Defining height and Width of core and die
+  -  Utilization factor: Area occupied by netlist/Total area of the core
+  -  Aspect ratio is ratio of Height by width of the core. If aspect ratio is 1, it is a square
+
+![image](https://user-images.githubusercontent.com/86380243/123998447-80de1e80-d99f-11eb-872a-065787441199.png)
+
+In reality, the utilization factor should be generally around 0.5 or 0.6 and the remaining area can be used for optimization and routing.
+
