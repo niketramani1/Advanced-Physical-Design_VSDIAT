@@ -83,11 +83,11 @@ In the openlane directory,
 
 run the below commands
 
-**docker**
+- **docker**
 
-**./flow.tcl -interactive**
+- **./flow.tcl -interactive**
 
-**package require openlane 0.9**
+- **package require openlane 0.9**
 
 Now, the designs are store in /openlane/designs and we are interested in picorv32
 
