@@ -316,6 +316,15 @@ The standard cells are not placed in the floorplan but are present on the lower 
 NOTE: In openlane the power generation is done AFTER CTS and not during floorplan
 
 
+**Day2_SK3: Cell Design and Characterization**
+
+- Cell Design Flow
+![image](https://user-images.githubusercontent.com/86380243/124034047-bb0fe600-d9c8-11eb-8c6b-f785887fa9f7.png)
+  
+  - The library has cells with different functionalities and different drive strengths
+  - It also has cells with different Vt i.e. threshold voltage
+ 
+ ![image](https://user-images.githubusercontent.com/86380243/124034285-00ccae80-d9c9-11eb-9274-d331fe96ac95.png)
 
         
 
