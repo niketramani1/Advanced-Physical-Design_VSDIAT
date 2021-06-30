@@ -209,6 +209,12 @@ In reality, the utilization factor should be generally around 0.5 or 0.6 and the
  ![image](https://user-images.githubusercontent.com/86380243/124009188-4c705f80-d9ab-11eb-89a1-68672705315a.png)
 
 
+LABS on floorplanning:
+
+- Lets see what all switches can be configured:
+![image](https://user-images.githubusercontent.com/86380243/124010440-d10fad80-d9ac-11eb-9cc1-dc2968ba112d.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124010532-ebe22200-d9ac-11eb-958a-fb3b8e80be66.png)
 
 
 
