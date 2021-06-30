@@ -252,6 +252,13 @@ LABS on floorplanning:
         To zoom in, left click the mouse then form a box by right clicking in whicehver part you want to zoon into. Press z to zoom in how much ever. Use arrow keys to move left right top and bottom
         To check what metal layer an input/output pin is, take cursor on that pin (DO NOT CLICK) and press s. We get to see the name of the pin. Next, fo to the tkcon window and type 'what', this will five the metal layer info.
         
+ ![image](https://user-images.githubusercontent.com/86380243/124018891-5b104400-d9b6-11eb-82d8-3290b111c91b.png)
+ 
+ Horizontal metal is layer 3 and vertical is layer 2.
+ 
+ 
+
+        
         
         
         
