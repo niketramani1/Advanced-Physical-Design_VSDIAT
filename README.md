@@ -183,10 +183,15 @@ In reality, the utilization factor should be generally around 0.5 or 0.6 and the
 - Power Planning
   - The chip should get uniform power i.e. VDD and GND throughout the chip in order to maintain signal integrity. If there is a long bus from a driver to load, there can be voltage droop or ground bounce issues.
   - Hence a mesh structure is built with many VDD and GND rails so that the chip gets enough power. The power rails are generally designed using higher metal layers as they have least resistance.
+  
 
 ![image](https://user-images.githubusercontent.com/86380243/124004472-0bc21780-d9a6-11eb-99a6-82949601e857.png)
 
 ![image](https://user-images.githubusercontent.com/86380243/124004652-3a3ff280-d9a6-11eb-8db7-9ebd8ff9c40c.png)
+
+ - Summarizing steps till this point, the mesh structure is as below:
+ 
+ ![image](https://user-images.githubusercontent.com/86380243/124005062-a884b500-d9a6-11eb-9c92-e681187d0f87.png)
 
 
   
