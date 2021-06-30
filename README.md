@@ -216,6 +216,42 @@ LABS on floorplanning:
 
 ![image](https://user-images.githubusercontent.com/86380243/124010532-ebe22200-d9ac-11eb-958a-fb3b8e80be66.png)
 
+- After run_synthesis, we do run_floorplan after configuring the swithces
+
+![image](https://user-images.githubusercontent.com/86380243/124013812-c5be8100-d9b0-11eb-874e-78f7185ba2da.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124014158-2bab0880-d9b1-11eb-9f6f-87cd5108f418.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124014195-36659d80-d9b1-11eb-970c-1da68cc03846.png)
+
+  - A DEF file is created in the runs directory
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124014720-df13fd00-d9b1-11eb-9d85-c28f5d67e765.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124014781-efc47300-d9b1-11eb-8311-5bd36ab05f3d.png)
+
+  The die coordinates are (0 0) lower left x and y (660685 671405) upper left corner x and y.
+  
+  Dividing these values, we get value in micro meter.
+  
+  - To view the floorplan layout, we need to be inside the floorplan directory and run the command:
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124016119-48e0d680-d9b3-11eb-859e-e1073a8c4068.png)
+  
+  The command is:
+  
+  magic -T path of tech file(image below) lef read ../../tmp/merged.lef def read picrv32a.floorplan.def
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124016748-fb189e00-d9b3-11eb-8df2-8fb3b57f03b4.png)
+  
+![image](https://user-images.githubusercontent.com/86380243/124017249-8134e480-d9b4-11eb-825c-c39f8fa91bd5.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124017571-de309a80-d9b4-11eb-9800-19f728fed7db.png)
+
+  Note: Press s and then v to align the layout at the center in magic tool.
+
+
+
 
 
 
