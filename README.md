@@ -260,6 +260,9 @@ LABS on floorplanning:
  
    - Tap cells used to avoid latchup. They connect nwell to VDD and substrate to ground.
  
+The standard cells are not placed in the floorplan but are present on the lower bottom corner of the layout.
+
+![image](https://user-images.githubusercontent.com/86380243/124019640-4aac9900-d9b7-11eb-975c-54538eafb2d8.png)
 
         
         
