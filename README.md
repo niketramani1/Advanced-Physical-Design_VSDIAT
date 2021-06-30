@@ -249,6 +249,12 @@ LABS on floorplanning:
 ![image](https://user-images.githubusercontent.com/86380243/124017571-de309a80-d9b4-11eb-9800-19f728fed7db.png)
 
   Note: Press s and then v to align the layout at the center in magic tool.
+        To zoom in, left click the mouse then form a box by right clicking in whicehver part you want to zoon into. Press z to zoom in how much ever. Use arrow keys to move left right top and bottom
+        To check what metal layer an input/output pin is, take cursor on that pin (DO NOT CLICK) and press s. We get to see the name of the pin. Next, fo to the tkcon window and type 'what', this will five the metal layer info.
+        
+        
+        
+        
 
 
 
