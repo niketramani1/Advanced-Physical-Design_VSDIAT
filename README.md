@@ -77,6 +77,24 @@ example
 
 ![image](https://user-images.githubusercontent.com/86380243/123879327-c1418c00-d90e-11eb-9f80-9eaab41863cf.png)
 
+INVOKING openlane
 
+In the openlane directory,
+
+run the below commands
+
+./flow.tcl -interactive
+
+package require openlane 0.9
+
+Now, the designs are store in /openlane/designs and we are interested in picorv32
+
+![image](https://user-images.githubusercontent.com/86380243/123881636-20a19b00-d913-11eb-886e-6c768b03825a.png)
+
+Now lets see whats in a config.tcl file
+
+![image](https://user-images.githubusercontent.com/86380243/123881709-4f1f7600-d913-11eb-84e6-bcf1ed86d3e0.png)
+
+It basically sets the path for .v and SDC files and also can give a clock value which goes and overwrites the value in the design
 
 
