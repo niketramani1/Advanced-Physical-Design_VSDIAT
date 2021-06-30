@@ -365,6 +365,8 @@ NOTE: In openlane the power generation is done AFTER CTS and not during floorpla
     ![image](https://user-images.githubusercontent.com/86380243/124038625-6d4aac00-d9cf-11eb-856f-70bd97c9be88.png)
  
     ![image](https://user-images.githubusercontent.com/86380243/124038476-307eb500-d9cf-11eb-9583-55e239324f51.png)
+    
+    All this is given to GUNA and outpts are timing, noise and power characterizations.
 
     
 
