@@ -256,6 +256,9 @@ LABS on floorplanning:
  
  Horizontal metal is layer 3 and vertical is layer 2.
  
+ ![image](https://user-images.githubusercontent.com/86380243/124019076-990d6800-d9b6-11eb-97ad-fe7eeb68dc73.png)
+ 
+   - Tap cells used to avoid latchup. They connect nwell to VDD and substrate to ground.
  
 
         
