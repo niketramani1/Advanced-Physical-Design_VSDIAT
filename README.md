@@ -148,9 +148,22 @@ Synthesis report:
 
 - Defining height and Width of core and die
   -  Utilization factor: Area occupied by netlist/Total area of the core
-  -  Aspect ratio is ratio of Height by width of the core. If aspect ratio is 1, it is a square
+  -  Aspect ratio is ratio of Height by width of the core. If aspect ratio is 1, it is a square.
 
 ![image](https://user-images.githubusercontent.com/86380243/123998447-80de1e80-d99f-11eb-872a-065787441199.png)
 
-In reality, the utilization factor should be generally around 0.5 or 0.6 and the remaining area can be used for optimization and routing.
+In reality, the utilization factor should be generally around 0.5 or 0.6 and the remaining area can be used for optimization like buffers etc.
+
+- Defining locations of pre placed cells:
+  - Preplaced cells are nothing but macros of which the locations have to be decided optimally.
+  - If the macros are large in size, they can be broken down to small blocks depending on the routing resources etc. These instances can be accesed multiple time in the netlist.
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124000481-9d7b5600-d9a1-11eb-990d-b734320ba048.png)
+  
+  - Also there are multiple IPs which are available like the Clockgating circuit, memory etc. which we can integrate with our design and the arrangement of these IPs is nothing but floorplanning.
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124000650-cdc2f480-d9a1-11eb-8c77-7f5ca7ab3990.png)
+
+
+  
 
