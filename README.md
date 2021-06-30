@@ -95,6 +95,25 @@ Now lets see whats in a config.tcl file
 
 ![image](https://user-images.githubusercontent.com/86380243/123881709-4f1f7600-d913-11eb-84e6-bcf1ed86d3e0.png)
 
-It basically sets the path for .v and SDC files and also can give a clock value which goes and overwrites the value in the design
+It basically sets the path for .v and SDC files and also can give a clock value which goes and overwrites the value in the design.
 
+The design config.tcl is as below and has highest precedence:
+
+![image](https://user-images.githubusercontent.com/86380243/123953383-27f99080-d975-11eb-9d32-5aceea1f01bf.png)
+
+INVOKING OPENLANE
+
+![image](https://user-images.githubusercontent.com/86380243/123953546-54151180-d975-11eb-8457-178757be56d8.png)
+
+The rund directory is created after running the prep command as below
+
+![image](https://user-images.githubusercontent.com/86380243/123953891-c128a700-d975-11eb-8cc9-e7bf776d6218.png)
+
+All results and reports will be saved in the runs directory
+
+![image](https://user-images.githubusercontent.com/86380243/123954301-3dbb8580-d976-11eb-9fbe-9cdc4a73f6d0.png)
+
+THe config.tcl inside runs directiry shows parameters taken during the prep design steps. We can see the modifications which we made anyime and anywhere.
+
+![image](https://user-images.githubusercontent.com/86380243/123954605-9ab73b80-d976-11eb-8a14-e49ae1630d8e.png)
 
