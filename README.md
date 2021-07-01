@@ -397,10 +397,74 @@ NOTE: In openlane the power generation is done AFTER CTS and not during floorpla
   
       
     
+  ## **Day 3**: Design library cell using magic layout and ngspice characterization
+
+**Day3_SK1: Labs for CMOS inverter ngspice simulations**
+
+- Changing the FP_IO_MODE switch to 2, we get a different IO pin placement, which was equidistant initially
+
+![image](https://user-images.githubusercontent.com/86380243/124188637-82861000-da8d-11eb-8c75-73ee305fa73e.png)
+
+
+- Defining a SPICE Deck
+
+![image](https://user-images.githubusercontent.com/86380243/124189692-19070100-da8f-11eb-9bad-1ac21a0f89b5.png)
+
+Drain gate source substrate is the order in which a MOS transistor nodes are defines in SPICE
+
+![image](https://user-images.githubusercontent.com/86380243/124189881-64211400-da8f-11eb-881c-430e8519f13a.png)
+
+Complete SPICE deck
+
+![image](https://user-images.githubusercontent.com/86380243/124190549-75b6eb80-da90-11eb-8704-b384fc0f877f.png)
+
+The tech file contains all tech parameters of NMOS and PMOS
+
+The mod file looks like this
+
+![image](https://user-images.githubusercontent.com/86380243/124190783-d514fb80-da90-11eb-84d7-3a5aa7b23c5e.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124190867-f7a71480-da90-11eb-8a54-60e35e7814d4.png)
+
+- Running SPICE simulations with same W/L for both PMOS and NMOS vs running it for PMOS 2.5 times, we see the VTC for PMOS is shifted to L and R respectively
+
+![image](https://user-images.githubusercontent.com/86380243/124192753-ca0f9a80-da93-11eb-96eb-905d87ac8b2b.png)
+
+- Switching threshold: Point at which device switches and both PMOS and NMOS are in sat region
+
+![image](https://user-images.githubusercontent.com/86380243/124195019-95054700-da97-11eb-96fa-e81e6e1aa224.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124195263-13fa7f80-da98-11eb-8fb3-6c2ccb24ca64.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124195390-5f149280-da98-11eb-95fe-0387592d89e7.png)
+
+Dynamic Simulation of Inverter: We give a pulse in this case and a tran instead of dc. We are doing this for PMOS and NMOS of equal sizes
+
+![image](https://user-images.githubusercontent.com/86380243/124195664-e3ffac00-da98-11eb-9ed5-7ee7caad4177.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124195838-317c1900-da99-11eb-859d-4e9c9367d05d.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124196189-e44c7700-da99-11eb-9448-92c78084b062.png)
+
+Labs on characterization:
+
+Git clone from https://github.com/nickson-jose/vsdstdcelldesign.git
+
+Copy tech files from magic into this cloned repository
+
+![image](https://user-images.githubusercontent.com/86380243/124198256-4909d080-da9e-11eb-8073-ae1f4a59a230.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124198285-56bf5600-da9e-11eb-9c67-c557fa4be57c.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124198433-a736b380-da9e-11eb-9800-a4b68abbcb05.png)
 
 
 
-    
+**Day3_SK2: Inception of Layout CMOS fabrication process**
+
+
+ 
+
 
 
   
