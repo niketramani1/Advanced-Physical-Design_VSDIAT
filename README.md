@@ -734,6 +734,22 @@ Fall delay = 0.024ns
 
 This characterization of cell is done at room temperature that is 27 degrees (nominal).
 
+LABS ON MAGIC DRC
+
+http://opencircuitdesign.com/magic/   Using Magic --> Magic tutorials
+
+DRC section and cifsection (caltech intermediate format)
+
+https://skywater-pdk--136.org.readthedocs.build/en/136/
+
+In home directory,
+
+**wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz**
+
+**tar xfz drc_tests.tgz**
+
+
+
 
 
 
