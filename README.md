@@ -833,7 +833,9 @@ In the openlane flow after prep design add the below two commands.
 
 Next do run_synthesis and we need to check if our cell has taken the design or not.
 
+The sythesis report is as below and as we can see that there are 1554 instances of our inverter.
 
+![image](https://user-images.githubusercontent.com/86380243/124310781-b408e500-db3a-11eb-962f-c4e85a8fa39c.png)
 
 
 
