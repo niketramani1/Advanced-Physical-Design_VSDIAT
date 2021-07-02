@@ -683,7 +683,13 @@ Also, we need to include pmos and nmos lib files. pshort.lib and nshort.lib
 
 Modifying the soice file like below:
 
-![image](https://user-images.githubusercontent.com/86380243/124214120-bc700a00-dabf-11eb-8159-ec7690408456.png)
+![image](https://user-images.githubusercontent.com/86380243/124216227-c0059000-dac3-11eb-9429-612f39e0a67b.png)
+
+Run the command **ngspice sky130_inv.spice**
+
+![image](https://user-images.githubusercontent.com/86380243/124216321-ff33e100-dac3-11eb-9be2-60846af93c97.png)
+
+
 
 
 
