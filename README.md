@@ -734,6 +734,80 @@ Fall delay = 0.024ns
 
 This characterization of cell is done at room temperature that is 27 degrees (nominal).
 
+
+
+## **Day 4**: Design library cell using magic layout and ngspice characterization
+
+**Day4_SK1: Labs for CMOS inverter ngspice simulations**
+
+- Timing modelling using delay tables
+
+For PnR, we dont need any info of logic. We just need info on metal layers, VDD GND info and pin info. Basically the LEF file.
+
+Guidelines for PnR
+  - The input and output ports should lie on the intersection of horizontal and vertical tracks.
+  - The width should be odd multiple of track pitch
+  - The height should be odd multiple of tracks vertical pitch
+
+Track info file:
+
+![image](https://user-images.githubusercontent.com/86380243/124293453-afd1cd00-db24-11eb-96a5-05a17bd2f4b3.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124293489-b9f3cb80-db24-11eb-936b-e6c649f36b07.png)
+
+Only tracks areused by PnR tool to do routing.
+
+On the inverter layout, lets verify if the ports a and Y(Both on li1 metal layers) are on the intersection of horizontal and vertical tracks
+
+For that we need to change the grid dimensions with respect to the track info file.'
+
+By pressing g in magic the grids are activated and we need to converge these grids with the track values.
+
+![image](https://user-images.githubusercontent.com/86380243/124300228-55d50580-db2c-11eb-9faf-ddc34aebf46c.png)
+
+The grid needs these values. **grid help**
+
+![image](https://user-images.githubusercontent.com/86380243/124300396-874dd100-db2c-11eb-898c-1f0f8a603b36.png)
+
+Refereing the tracks info file for the li layer we can change these parameters
+
+![image](https://user-images.githubusercontent.com/86380243/124300755-e1e72d00-db2c-11eb-8793-74ee1bd4a38c.png)
+
+As we can see below the grid size has now been with respect to the li1 track and a &y are at the intersection od the H & V tracks
+
+![image](https://user-images.githubusercontent.com/86380243/124301070-4bffd200-db2d-11eb-8cc3-f82b15f667a7.png)
+
+
+Now lets verify width of the cell should be odd multiples of X pitch (Count number of grid boxes) and same case with height.
+
+Port definitions are nothing but pins of the design. A, Y VPWR and GND(pwr gnd are inouts). Next define type of port. (Refer Nicksons github readme)
+
+After these 2 parameters, we extract the LEF file.
+
+Before extracting, lets give a cell some custom name.
+
+![image](https://user-images.githubusercontent.com/86380243/124302147-c846e500-db2e-11eb-9b93-1ec0a3612294.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124302373-22e04100-db2f-11eb-9bc7-6438863dd55e.png)
+
+For writing lef, **lef write** is the command in tkcon
+
+![image](https://user-images.githubusercontent.com/86380243/124302714-8f5b4000-db2f-11eb-8064-9ab8bfa9e083.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124302866-ba459400-db2f-11eb-9370-51ec64fc3c0d.png)
+
+
+
+
+
+
+
+  
+
+
+
+
+
 LABS ON MAGIC DRC
 
 http://opencircuitdesign.com/magic/   Using Magic --> Magic tutorials
