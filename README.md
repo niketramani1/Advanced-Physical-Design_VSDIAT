@@ -462,6 +462,112 @@ Copy tech files from magic into this cloned repository
 
 **Day3_SK2: Inception of Layout CMOS fabrication process**
 
+- 16 mask CMOS process
+
+![image](https://user-images.githubusercontent.com/86380243/124198743-51aed680-da9f-11eb-821a-fa8339ce1588.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124199094-28db1100-daa0-11eb-8e59-b49ce7768c21.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124199141-490ad000-daa0-11eb-8bdf-6cdfeceebef4.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124199218-72c3f700-daa0-11eb-889c-10e4f054d053.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124199255-81aaa980-daa0-11eb-95c5-5da2dbe42c76.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124199356-b3237500-daa0-11eb-8fc9-84b0d7e25471.png)
+
+In above figure, field oxide is grown. This process is called LOCOS - Local Oxidation of Silicon
+
+![image](https://user-images.githubusercontent.com/86380243/124199472-f8e03d80-daa0-11eb-885f-e4d7fe14b485.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124199495-05fd2c80-daa1-11eb-801d-bda6f4d5f769.png)
+
+  - Nwell and pwell
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124199798-c7b43d00-daa1-11eb-8c57-ba6085b4306a.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124199831-ddc1fd80-daa1-11eb-8a59-2b476ce7a706.png)
+
+  Creating p well by Boron ion implantation
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124199924-1b268b00-daa2-11eb-87a7-6220f444059c.png)
+  
+  Creating n well
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200007-46a97580-daa2-11eb-858b-39de74c6959e.png)
+
+  ![image](https://user-images.githubusercontent.com/86380243/124200060-6b9de880-daa2-11eb-9e52-039a8b9feda6.png)
+
+  Increasing depth of well: Twin tub process
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200190-b15ab100-daa2-11eb-9851-d4b1afe5858f.png)
+  
+  
+  Creating gate terminal
+  
+  Vt dependent on below factors
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200538-9c325200-daa3-11eb-846e-da2e0e08a8e7.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200640-d996df80-daa3-11eb-904c-29bd74a1b420.png)
+  
+  Introduce boron again with a low energy than before as we want it only on the surface. This is how we modify the doping concentration and also the Vt
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200728-0f3bc880-daa4-11eb-9b64-01e2177d062b.png)
+  
+  While boron penetrates, the oxide layer damages
+  
+  Similarly do for Pmos - Mask5
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200808-38f4ef80-daa4-11eb-83e3-064a2d5a0754.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200849-5b870880-daa4-11eb-8d34-c28a3578df2a.png)
+  
+  Can use phosphorus or arsenic as both are n type impurities
+  
+  Next is fix damages to oxide region. Also the newly formed oxide region will have dimensions with respect to the Vt which we want.
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124200997-c9cbcb00-daa4-11eb-85bf-be00b3c5685c.png)
+  
+  Next we need to make the gate. Fist put poly throughout (red) and dope it with n type impurity as gate has to be low resistance (sheet)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201057-fd0e5a00-daa4-11eb-95db-0a60ff75a949.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201110-26c78100-daa5-11eb-9cb8-74fd7bf06abd.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201135-3c3cab00-daa5-11eb-9595-b5ad17631b62.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201183-570f1f80-daa5-11eb-904d-15dd3b554ae8.png)
+  
+  - Lightly doped drain formation (LDD)
+
+  ![image](https://user-images.githubusercontent.com/86380243/124201341-cbe25980-daa5-11eb-9eb2-74924b502c28.png)
+  
+  Here P+ and N+ are used for source and drain for PMOS and NMOS respectively. P- and N- are for the LDD to take care of the short channel effect and the hot electron effect.
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201807-f41e8800-daa6-11eb-87e9-d51dcb44d30b.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201873-25975380-daa7-11eb-9c7c-7185600f03f9.png)
+
+  ![image](https://user-images.githubusercontent.com/86380243/124201905-38aa2380-daa7-11eb-9b70-516d65a65fa4.png)
+
+  ![image](https://user-images.githubusercontent.com/86380243/124201946-54adc500-daa7-11eb-8939-3ef4690a4e30.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124201990-6abb8580-daa7-11eb-927c-7400a4326ba3.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202022-82930980-daa7-11eb-9445-ae09c38fa8e5.png)
+
+  These are side wall spacers. They help to retain the N- and P- implants just below them when we do the N+ and P+ implant later.
+  
+  
+  
+  
+  
+
+
+ 
+  
+    
 
  
 
