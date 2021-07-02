@@ -748,6 +748,39 @@ In home directory,
 
 **tar xfz drc_tests.tgz**
 
+![image](https://user-images.githubusercontent.com/86380243/124269222-9fabf480-db08-11eb-9bf6-e0b345163ebb.png)
+
+The .magicrc file basically sources the tech file in the same directory.
+
+**magic -d XR **   Use this for better graphics
+
+![image](https://user-images.githubusercontent.com/86380243/124269716-41334600-db09-11eb-9699-178040215783.png)
+
+Opening the met3 file in magic
+
+![image](https://user-images.githubusercontent.com/86380243/124269995-9707ee00-db09-11eb-95db-9e1a474d36e5.png)
+
+IF WE want to use tkcon from layout, just press ':' or ':'.
+
+![image](https://user-images.githubusercontent.com/86380243/124270588-67a5b100-db0a-11eb-9e68-ef0ebca4e526.png)
+
+The below is an m3 contact:
+
+  - Step 1 Draw a box with left and right click
+  - Step 2 Take cursor on M3 contact and type 'pk'
+  - Select the box created and in tkcon type cif see VIA2
+
+![image](https://user-images.githubusercontent.com/86380243/124271784-e0593d00-db0b-11eb-8638-19a2e64722af.png)
+
+LAB EXERCISE
+
+Open poly.mag file in magic
+
+![image](https://user-images.githubusercontent.com/86380243/124272037-35954e80-db0c-11eb-8bb0-b1dd42fa1282.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124272208-6f665500-db0c-11eb-8e75-cfc577a3b72c.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124272310-8ad16000-db0c-11eb-809d-e75d36ebc38c.png)
 
 
 
