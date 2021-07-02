@@ -665,6 +665,12 @@ Nwell and above that is locali and aboce that is m1
 
 The **extract all** command creates the sky130_inv.ext file and the second **ext2spice** command creates sky130_inv.spice file
 
+The spice file contains the below parameters
+
+![image](https://user-images.githubusercontent.com/86380243/124209699-081eb580-dab8-11eb-9b3a-5c7fec38b592.png)
+
+
+
 
 
 
