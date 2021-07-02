@@ -559,8 +559,75 @@ In above figure, field oxide is grown. This process is called LOCOS - Local Oxid
 
   These are side wall spacers. They help to retain the N- and P- implants just below them when we do the N+ and P+ implant later.
   
+ - Source and drain formation
+ 
+  First add a thin layer of oxide above the source and drain terminals. This is done to avoid channeling. Chaneelling is when we doa lot of ion imolanting and when vector vel of ion matches p substrate and the ion penetates into the p substrate.
   
+  ![image](https://user-images.githubusercontent.com/86380243/124202512-7eb3b700-daa8-11eb-82f2-24e9c076e83c.png)
   
+  ![image](https://user-images.githubusercontent.com/86380243/124202533-8a06e280-daa8-11eb-9326-7ffbc5c42aad.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202560-9723d180-daa8-11eb-9ffb-602f37abefb5.png)
+  
+  the LDD remaines intact due to the side wall spacers.
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202678-db16d680-daa8-11eb-824b-8960f9b01399.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202692-ea961f80-daa8-11eb-8418-8a4d72cccd0b.png)
+
+  Similarly do for Pmos. Use boron here
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202723-ff72b300-daa8-11eb-8b81-2c4732e0a193.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202778-25985300-daa9-11eb-97c9-17512dda491a.png)
+  
+  Next put it to high furnace annealing, this will penetrate p+ and n+ more deep similar to the twin tub
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124202862-61cbb380-daa9-11eb-8bba-60f2fc9e7268.png)
+
+- Steps to form contacts and interconnect
+
+Here we remove the thin oxide which we had done in previous steps using hydrofloric soln
+
+![image](https://user-images.githubusercontent.com/86380243/124202962-a1929b00-daa9-11eb-8f5b-3fed29c09665.png)
+
+Sputtering: Hitting argon gas on the Titanium metal and it emits on the substrate 
+
+![image](https://user-images.githubusercontent.com/86380243/124203023-c5ee7780-daa9-11eb-875b-b2b5bcb8609e.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203120-ffbf7e00-daa9-11eb-9256-a2439674ca94.png)
+
+Next we need to make contacts. The white layer is TiN used for local communication 
+
+![image](https://user-images.githubusercontent.com/86380243/124203208-2ed5ef80-daaa-11eb-8079-37dc5b10c49e.png)
+
+Now we can do some local internal connection for an inverter like the D of NMOS and PMOS are connected to the output 
+
+![image](https://user-images.githubusercontent.com/86380243/124203396-a0ae3900-daaa-11eb-8a4e-f51a8c2bed9d.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203452-c4717f00-daaa-11eb-9a78-852a3367d285.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203554-fbe02b80-daaa-11eb-9639-1b0336642f7e.png)
+
+- Higher level metal formation: We add a thick oxide layer because of the surface is non linear
+
+![image](https://user-images.githubusercontent.com/86380243/124203722-5c6f6880-daab-11eb-88ed-ef55a2e84e18.png)
+
+Planarization
+
+![image](https://user-images.githubusercontent.com/86380243/124203784-790ba080-daab-11eb-95c4-e36f73163153.png)
+
+
+
+
+
+
+
+ 
+
+
+
+
   
   
 
