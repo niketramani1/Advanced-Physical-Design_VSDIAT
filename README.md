@@ -700,6 +700,40 @@ As we can see there are some spikes, so we need to change Cload (Increase it to 
 ![image](https://user-images.githubusercontent.com/86380243/124216747-eaa41880-dac4-11eb-9d2e-37ca4906d10b.png)
 
 
+- Characterization of the cell:
+
+We need to find te rise/fall transition (20-80%) and the cell delay (50-50%) first
+
+Max value - vdd =3.3V (20 % = 0.66 on Y axis and 80 % is 2.64 on Y axis)
+
+Click right mouse button to zoom in. Click on corresponding output for above values on the graph and in ngspice terminal, we can see the coordinates).
+
+![image](https://user-images.githubusercontent.com/86380243/124264757-e139a100-db02-11eb-954b-343384b9d0c6.png)
+
+The above values are for rise transition = 2.238-2.179 = 0.059ns
+
+Similarly fall fall transition: 
+
+![image](https://user-images.githubusercontent.com/86380243/124265293-7d63a800-db03-11eb-8a9b-977d7ae69a39.png)
+
+Fall transition = 4.0989 - 4.0925 = 0.0064ns
+
+NOw the cell delay:
+
+Rise delay when output is rising (50% of 3.3 = 1.65V)
+
+![image](https://user-images.githubusercontent.com/86380243/124265746-290cf800-db04-11eb-8ba6-9674401755ee.png)
+
+Rise delay = 0.057ns
+
+Similarly fall delay when output is falling
+
+![image](https://user-images.githubusercontent.com/86380243/124266140-96208d80-db04-11eb-8270-42c6ec1ca468.png)
+
+Fall delay = 0.024ns
+
+This characterization of cell is done at room temperature that is 27 degrees (nominal).
+
 
 
 
