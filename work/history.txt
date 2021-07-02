@@ -1,0 +1,223 @@
+    1  ls
+    2  cd Desktop/
+    3  ls
+    4  cd cd work/
+    5  cd work/
+    6  ls
+    7  cd tools/
+    8  ls
+    9  cd openlane_working_dir/
+   10  ls
+   11  cd openlane/
+   12  ls
+   13  ls -lrt
+   14  cd ../pdks
+   15  ls -lrt
+   16  cd ../..
+   17  cd ..
+   18  cd ..
+   19  ls
+   20  cd Advanced-Physical-Design_VSDIAT/
+   21  ls
+   22  ls -la
+   23  cd .git/
+   24  ls -la
+   25  vim description 
+   26  cd config 
+   27  vim config 
+   28  cd ..
+   29  rsync -avC /home/niket/Desktop/work .
+   30  find . -iname ".git"
+   31  git add .
+   32  git commit
+   33  git push
+   34  git pull
+   35  git push
+   36  ls
+   37  cd work/tools/
+   38  ls
+   39  cd openlane_working_dir
+   40  ls
+   41  cd pdks
+   42  ls
+   43  clear
+   44  ls
+   45  cd sky130A/
+   46  ls
+   47  cd libs.ref/
+   48  ls -lrt
+   49  cd ../libs.tech/
+   50  ls-lrt
+   51  ls -lrt
+   52  cd ../libs.ref/
+   53  clear
+   54  ls -lrt
+   55  cd sky130_fd_sc_hd
+   56  ls -lrt
+   57  cd lib
+   58  ls -lrt
+   59  clear
+   60  cd ..
+   61  cd techlef/
+   62  ls -lrt
+   63  cd ..
+   64  ls
+   65  cd lef/
+   66  ls -let
+   67  ls -lrt
+   68  vim sky130_fd_sc_hd.lef 
+   69  cd ..
+   70  ls
+   71  cd techlef/
+   72  ls
+   73  vim sky130_fd_sc_hd.tlef 
+   74  cd ..
+   75  ls
+   76  cd lef/
+   77  ls
+   78  cd sky130_cd ..
+   79  cd ../lib/
+   80  ls -lrt
+   81  vim sky130_fd_sc_hd__tt_100C_1v80.lib 
+   82  clear
+   83  cd ../..
+   84  cd ../../open_pdks/
+   85  cd ..
+   86  ls
+   87  cd ..
+   88  ls
+   89  cd openlane/
+   90  ls
+   91  ./flow.tcl -interactive
+   92  docker run -it -v $(pwd)
+   93  docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) openlane:rc2
+   94  clear
+   95  ./flow.tcl -interactive
+   96  cd
+   97  cd Desktop/work/tools/openlane_working_dir/openlane/
+   98  clear
+   99  ls
+  100  ./flow.tcl 
+  101  ./flow.tcl -interactive
+  102  cd
+  103  cd Desktop/Advanced-Physical-Design_VSDIAT/work/tools/openlane_working_dir/openlane/
+  104  cd designs/picorv32a/
+  105  ls -la
+  106  cd runs
+  107  ls -la
+  108  cd 30-06_02-11/
+  109  ls -la
+  110  vim config.tcl 
+  111  cd results/
+  112  ls -lrt
+  113  cd synthesis/
+  114  ls
+  115  ls -lrt
+  116  vim merged_unpadded.lef 
+  117  cd ../../../../..
+  118  cd ..
+  119  ls -ltr
+  120  cd configuration/
+  121  clear
+  122  ls -ltr
+  123  vim README.md 
+  124  vim README.md 
+  125  ls -ltr
+  126  cd ../designs/
+  127  cd picorv32a/runs/
+  128  ls -ltr
+  129  cd 30-06_20-51/
+  130  ls -ltr
+  131  vim config.tcl 
+  132  cd ../..
+  133  ls- ltr
+  134  ls -ltr
+  135  vim config.tcl 
+  136  vim sky130A_sky130_fd_sc_hd_config.tcl 
+  137  ls -ltr
+  138  cd runs/
+  139  ls -ltr
+  140  cd 01-07_18-46/
+  141  ls -ltr
+  142  vim config.tcl 
+  143  cd ../../sky130A_sky130_fd_sc_hd_config.tcl 
+  144  cd ../../
+  145  vim sky130A_sky130_fd_sc_hd_config.tcl 
+  146  cd runs/
+  147  ls -ltr
+  148  cd 01-07_19-21/
+  149  vim config.tcl 
+  150  ls lrt
+  151  ls -lr
+  152  cd results/
+  153  ls -ltr
+  154  cd placement/
+  155  ls -ltr
+  156  cd ../../../../../
+  157  cd ../
+  158  clear
+  159  git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+  160  ls =ltr
+  161  ls -ltr
+  162  cd vsdstdcelldesign/
+  163  ls -ltr
+  164  clear
+  165  ls -ltr
+  166  pwd
+  167  ls -ltr
+  168  magic - T sky130A.tech sky130_inv.mag &
+  169  magic -T sky130A.tech sky130_inv.mag &
+  170  ls -ltr
+  171  vim sky130_inv.spice 
+  172  clear
+  173  magic -T sky130A.tech sky130_inv.mag &
+  174  ls -ltr
+  175  vim sky130_inv.spice 
+  176  vim sky130_inv.spice 
+  177  vim sky130_inv.spice 
+  178  vim sky130_inv.spice 
+  179  vim sky130_inv.spice 
+  180  vim sky130_inv.spice 
+  181  vim sky130_inv.spice 
+  182  ngspice sky130_inv.spice
+  183  vim sky130_inv.spice 
+  184  vim sky130_inv.spice 
+  185  vim sky130_inv.spice 
+  186  ngspice sky130_inv.spice 
+  187  vim sky130_inv.spice 
+  188  ngspice sky130_inv.spice 
+  189  vim sky130_inv.spice 
+  190  vim sky130_inv.spice 
+  191  ngspice sky130_inv.spice 
+  192  cd ..
+  193  ls -ltr
+  194  cd designs/
+  195  ls -ltr
+  196  cd ../
+  197  ls 
+  198  cd ../pdks
+  199  ls
+  200  cd sky
+  201  cd sky130A/
+  202  cd libs.tech/
+  203  ls
+  204  cd openlane/
+  205  ls -ltr
+  206  clear
+  207  ls -ltr
+  208  cs sky130_fd_sc_hs
+  209  cs sky130_fd_sc_hd
+  210  ls -ltr
+  211  cs sky130_fd_sc_hs
+  212  cd sky130_fd_sc_hs
+  213  clear
+  214  ls -ltr
+  215  vim tracks.info 
+  216  pwd
+  217  cd ../../../../../
+  218  cd ../../
+  219  history > histort.txt
+  220  ls
+  221  rm histort.txt 
+  222  ls
+  223  history > history.txt
