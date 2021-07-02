@@ -821,6 +821,21 @@ TO work in the existing directory, we run the prep -design command as below and 
 
 ![image](https://user-images.githubusercontent.com/86380243/124307844-68543c80-db36-11eb-80e5-28acb3412038.png)
 
+The config.tcl has 2 more changes LIB_FASTEST AND LIB_SLOWEST
+
+![image](https://user-images.githubusercontent.com/86380243/124309613-fdf0cb80-db38-11eb-8ddf-287a7bdaacd7.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124309648-0f39d800-db39-11eb-9258-b9f24fae8ca4.png)
+
+In the openlane flow after prep design add the below two commands.
+
+![image](https://user-images.githubusercontent.com/86380243/124310350-0a295880-db3a-11eb-96c6-0b88d912599e.png)
+
+Next do run_synthesis and we need to check if our cell has taken the design or not.
+
+
+
+
 
 
 
