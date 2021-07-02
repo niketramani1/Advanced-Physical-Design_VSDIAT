@@ -796,6 +796,33 @@ For writing lef, **lef write** is the command in tkcon
 
 ![image](https://user-images.githubusercontent.com/86380243/124302866-ba459400-db2f-11eb-9370-51ec64fc3c0d.png)
 
+Now we have the LEF file and we need to use this cell in the picrv32a design which we had initially done. So we need to copy files in the src folder.
+
+We need to copy it in the below directory 
+
+![image](https://user-images.githubusercontent.com/86380243/124304336-8a978b80-db31-11eb-819c-158f38e266be.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124305026-85870c00-db32-11eb-9d46-b28fb75382e1.png)
+
+We need to add this to the openlane flow and the first stage is synthesis thats ensuring abc flow has to detect this library
+
+Next step for this is that copy all lib files for all PVTs to the same src folder as above:
+
+![image](https://user-images.githubusercontent.com/86380243/124305293-e1ea2b80-db32-11eb-9943-0875a32a4e94.png)
+
+Next we need to modify our config.tcl in the picorv32a directory as below which adds the LEF info as well. Also refer to Nickson's github page.
+
+![image](https://user-images.githubusercontent.com/86380243/124307917-7e61fd00-db36-11eb-91f1-91bce00bf490.png)
+
+
+Then go to the open lane flow as we did initially.
+
+TO work in the existing directory, we run the prep -design command as below and it overwrites the previous runs.
+
+![image](https://user-images.githubusercontent.com/86380243/124307844-68543c80-db36-11eb-80e5-28acb3412038.png)
+
+
+
 
 
 
