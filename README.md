@@ -638,8 +638,25 @@ Contact holes
 ![image](https://user-images.githubusercontent.com/86380243/124204219-98ef9400-daac-11eb-895e-1ad84ef16129.png)
 
 
+Labs for characterizing:
 
+Considering the layout of an inverter, if a poly crosses n-diff its and nmos and if it crosses a p diffusion its a pmos
 
+![image](https://user-images.githubusercontent.com/86380243/124204583-58dce100-daad-11eb-9cb0-76f4882b4dc7.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124204643-77db7300-daad-11eb-97d5-30a4a769d23f.png)
+
+Checking connectivity of output and drain terminals of both MOS. (take cursor at y and press 's' thrice).
+
+![image](https://user-images.githubusercontent.com/86380243/124204951-2b446780-daae-11eb-8fb9-00160f38e4b8.png)
+
+Checking connectivity of source of pmos (take cursor and press 's' thrice)
+
+![image](https://user-images.githubusercontent.com/86380243/124204998-4dd68080-daae-11eb-835a-b00a645f5955.png)
+
+There should be contact between nwell and locali & contact between locali and m1. Similarly for nmos - contact between locali and pusbs & locali and m1
+
+Nwell and above that is locali and aboce that is m1
 
 
  
