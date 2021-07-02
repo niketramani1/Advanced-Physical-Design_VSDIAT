@@ -689,6 +689,15 @@ Run the command **ngspice sky130_inv.spice**
 
 ![image](https://user-images.githubusercontent.com/86380243/124216321-ff33e100-dac3-11eb-9be2-60846af93c97.png)
 
+To see the plot command is **plot y vs time a**
+
+![image](https://user-images.githubusercontent.com/86380243/124216479-66ea2c00-dac4-11eb-95fc-d0d6e53c1f08.png)
+
+As we can see there are some spikes, so we need to change Cload (Increase it to 2fF in the spice file and run ngspice again.
+
+![image](https://user-images.githubusercontent.com/86380243/124216809-0c050480-dac5-11eb-8084-95d5857122ae.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124216747-eaa41880-dac4-11eb-9d2e-37ca4906d10b.png)
 
 
 
