@@ -654,12 +654,18 @@ Checking connectivity of source of pmos (take cursor and press 's' thrice)
 
 ![image](https://user-images.githubusercontent.com/86380243/124204998-4dd68080-daae-11eb-835a-b00a645f5955.png)
 
-There should be contact between nwell and locali & contact between locali and m1. Similarly for nmos - contact between locali and pusbs & locali and m1
+There should be contact between nwell and locali (n subs contact) & contact between locali(licol) and m1. Similarly for nmos - contact between locali and pusbs & locali and m1
 
 Nwell and above that is locali and aboce that is m1
 
 
- 
+- Extracting spice and do simulation on ngspice
+
+![image](https://user-images.githubusercontent.com/86380243/124209477-9e9ea700-dab7-11eb-8af4-c01fabcd1501.png)
+
+The **extract all** command creates the sky130_inv.ext file and the second **ext2spice** command creates sky130_inv.spice file
+
+
 
 
 
