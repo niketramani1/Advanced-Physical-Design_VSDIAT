@@ -617,6 +617,25 @@ Planarization
 
 ![image](https://user-images.githubusercontent.com/86380243/124203784-790ba080-daab-11eb-95c4-e36f73163153.png)
 
+Contact holes
+
+![image](https://user-images.githubusercontent.com/86380243/124203892-b96b1e80-daab-11eb-852b-d7db0127f060.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203936-d7388380-daab-11eb-9ed3-b0ff4916c509.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203951-e0295500-daab-11eb-92c6-e1c6c1577c83.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203963-e7506300-daab-11eb-8248-3ad3788d3a5a.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124203988-fa633300-daab-11eb-8ff4-37c187b76015.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124204012-0e0e9980-daac-11eb-8fb6-34cc16ff1ea8.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124204051-2a123b00-daac-11eb-8880-bce9b21ef351.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124204092-40b89200-daac-11eb-9a42-8a9c1e6dac38.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124204219-98ef9400-daac-11eb-895e-1ad84ef16129.png)
 
 
 
