@@ -669,6 +669,25 @@ The spice file contains the below parameters
 
 ![image](https://user-images.githubusercontent.com/86380243/124209699-081eb580-dab8-11eb-9b3a-5c7fec38b592.png)
 
+NOTE: We need to edit the scale value in the spice file with respect to the grid value in the layout.
+
+![image](https://user-images.githubusercontent.com/86380243/124211125-9c8a1780-daba-11eb-8dbe-9cbeea862aed.png)
+
+Since its 0.01, we make changes int he spice file.
+
+![image](https://user-images.githubusercontent.com/86380243/124211276-d78c4b00-daba-11eb-8688-925c0554c603.png)
+
+Also, we need to include pmos and nmos lib files. pshort.lib and nshort.lib
+
+![image](https://user-images.githubusercontent.com/86380243/124211578-55505680-dabb-11eb-8920-862c2b54c8f0.png)
+
+Modifying the soice file like below:
+
+![image](https://user-images.githubusercontent.com/86380243/124214120-bc700a00-dabf-11eb-8159-ec7690408456.png)
+
+
+
+
 
 
 
