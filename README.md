@@ -1001,14 +1001,33 @@ Step2:Invoke openraod again
    
    
 
-   **Day 5**: Routing 
+   **Day 5: Routing**
    
    Check the last run in your design it should be cts.def
    
    ![image](https://user-images.githubusercontent.com/86380243/124365301-0ddddd80-dc15-11eb-8452-484733885dd7.png)
 
    Before routing, we need to do power grid generation
-          
+   
+   Command **gen_pdn** This is in openlane flow. Check that.
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124365344-5dbca480-dc15-11eb-82d9-d1e973eab39c.png)
+    
+   Concept of power pads, rings, straps, rails
+   ![image](https://user-images.githubusercontent.com/86380243/124365469-47631880-dc16-11eb-9797-cb93446f0a38.png)
+
+   
+   Current DEF:
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124365632-59918680-dc17-11eb-9010-af487fc05930.png)
+
+   Swithches used in ROUTING:
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124365994-213f7780-dc1a-11eb-88b4-ccbc2e208a50.png)
+   
+   We will be using ROUTING_STRATEGY as 0
+   
+   **run_routing** command
 
 
 
