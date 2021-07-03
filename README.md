@@ -1029,6 +1029,40 @@ Step2:Invoke openraod again
    
    **run_routing** command
 
+   Theory on TRITON ROUTING
+   
+   Fast route: GLobal route-  Routing divided into grids 
+   
+   Detailed route: Triton route - Some algo to find best possible connectivity
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124366122-5b5d4900-dc1b-11eb-8f23-dff6b3b328c8.png)
+
+   ![image](https://user-images.githubusercontent.com/86380243/124366200-ed655180-dc1b-11eb-89a2-75053a903445.png)
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124366338-163a1680-dc1d-11eb-9afe-18bb9db9dbb4.png)
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124366384-7f218e80-dc1d-11eb-9767-d826378f04fc.png)
+    
+   
+   Post routing
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124368757-3de7a980-dc32-11eb-93c4-ddf26774ff85.png)
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124368768-5f489580-dc32-11eb-87a0-972d62069b0b.png)
+   
+   The number of violations are 0
+   
+   POST ROUTING STA ANALYSIS
+   
+   The SPEF is written
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124368972-d2eba200-dc34-11eb-92b7-400bdd028fcb.png)
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124368980-ee56ad00-dc34-11eb-89ed-2a8531c22315.png)
+   
+   The final post route netlist has been successfully created.
+   
+   
 
 
 
