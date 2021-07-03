@@ -954,6 +954,63 @@ Create the db as below
 
 ![image](https://user-images.githubusercontent.com/86380243/124362785-1dedc100-dc05-11eb-8c2d-78a99d1b7bfc.png)
 
+Run below commands writing the db
+
+![image](https://user-images.githubusercontent.com/86380243/124363217-03691700-dc08-11eb-8173-235669fc6340.png)
+
+HOLD SLACK
+
+![image](https://user-images.githubusercontent.com/86380243/124363283-4dea9380-dc08-11eb-9240-dfa7acdbe343.png)
+
+SETUP SLACK
+
+![image](https://user-images.githubusercontent.com/86380243/124363289-5e027300-dc08-11eb-9361-3d9c6b958520.png)
+
+DO some timing analysis
+
+Step1: exit from open road (JUST TYPE ONCE as we need to go back to openlane)
+
+Step2:Invoke openraod again 
+
+          read_db pico_cts.db
+          
+          read_verilog /openLANE_flow/designs/picorv32a/runs/02-07_19-51/results/synthesis/picorv32a.synthesis_cts.v
+          
+          read_liberty $::env(LIB_SYNTH_COMPLETE)
+          
+          link_design picorv32a
+          
+          read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
+          
+          set_propagated_clock [all_clocks]
+          
+          report_checks -path_delay min_max -fields {slew trans net cap input_pin} -format full_clock_expanded -digits 4
+          
+   ![image](https://user-images.githubusercontent.com/86380243/124364211-f51df980-dc0d-11eb-8148-c0e7d4f22a4e.png)
+
+   We can see that both setup and hold slacks are met
+   
+   HOLD
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124364230-0e26aa80-dc0e-11eb-874d-810b5d5ac9e7.png)
+    
+   SETUP
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124364231-1c74c680-dc0e-11eb-8823-f207f7475353.png)
+   
+   
+   
+
+   **Day 5**: Routing 
+   
+   Check the last run in your design it should be cts.def
+   
+   ![image](https://user-images.githubusercontent.com/86380243/124365301-0ddddd80-dc15-11eb-8452-484733885dd7.png)
+
+   Before routing, we need to do power grid generation
+          
+
+
 
 
  
