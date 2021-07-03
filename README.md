@@ -892,7 +892,72 @@ Run the command **sta pre_sta.conf** in the same open lane directory
 
 ![image](https://user-images.githubusercontent.com/86380243/124336817-9acd5c00-db6d-11eb-8aaf-1ca94505d063.png)
 
+![image](https://user-images.githubusercontent.com/86380243/124355016-16b2bd00-dbdd-11eb-869a-5ae4df739e5c.png)
+
+We are getting negative slack here(ACTUALLT IT SHOULD BE THE SAME VALUE AFTER SYNTHESIS WHERE SLACK WAS MET FOR ME).
+
 Now we need to meet timing and work on setup. Hold analysis to be done after CTS.
+
+  - Change the fanout in the /openlane/configurations/synthesis.tcl to 4 and run the flow again
+  ![image](https://user-images.githubusercontent.com/86380243/124354919-8ffde000-dbdc-11eb-83af-12cc7ec48342.png)
+  
+  ![image](https://user-images.githubusercontent.com/86380243/124354999-f551d100-dbdc-11eb-9f0e-1d60bd24c765.png)
+
+  ![image](https://user-images.githubusercontent.com/86380243/124356418-ecb0c900-dbe3-11eb-87f7-6675851dc92f.png)
+
+After upsizing cells to meet timing, we do write_verilog and overwrite the existing netlist in the run/tag/synthesis directory
+
+LABS on CTS
+
+COming back to open lane after synthesis, DO NOT DO run_synthesis again. Do run_floorplan and run_placement
+
+Next do run_cts 
+
+![image](https://user-images.githubusercontent.com/86380243/124361900-b719d900-dbff-11eb-84d4-4484c29611f0.png)
+
+
+This will create another netlist file in the synthesis folder which ahs contents of previous netlist and the added clock buffers due to CTS.
+
+![image](https://user-images.githubusercontent.com/86380243/124361940-006a2880-dc00-11eb-9e66-4e970281efc7.png)
+
+Understanding the run_cts flow:
+
+Go to openlane/scripts/tclcommands/cts.ctl
+
+![image](https://user-images.githubusercontent.com/86380243/124362046-b6357700-dc00-11eb-96eb-15ef9d5a7a75.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124362160-60ad9a00-dc01-11eb-998a-91f0640f29fd.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124362181-7cb13b80-dc01-11eb-9c1e-e70d90f552bf.png)
+
+
+LABS ON TIMING ANALYSIS AFTER CTS
+
+Open road has open sta integrated in it.
+INVOKE openroad inside openlane
+
+![image](https://user-images.githubusercontent.com/86380243/124362614-f813ec80-dc03-11eb-83e1-205d9dd8427e.png)reti
+
+Creation of db from LEF and DEF which a one time process : 
+
+Read merged.lef
+
+![image](https://user-images.githubusercontent.com/86380243/124362651-4923e080-dc04-11eb-9165-4e6f23d012cd.png)
+
+Read def file created post cts
+
+![image](https://user-images.githubusercontent.com/86380243/124362723-b9cafd00-dc04-11eb-8bc5-8f10bf44d94b.png)
+
+Create the db as below
+
+![image](https://user-images.githubusercontent.com/86380243/124362772-06aed380-dc05-11eb-9d97-3aed54dadc9d.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124362785-1dedc100-dc05-11eb-8c2d-78a99d1b7bfc.png)
+
+
+
+ 
+  
 
 
 
