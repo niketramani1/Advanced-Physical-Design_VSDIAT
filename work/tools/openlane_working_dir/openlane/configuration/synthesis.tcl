@@ -18,9 +18,9 @@ set ::env(SYNTH_SCRIPT) $::env(SCRIPTS_DIR)/synth.tcl
 set ::env(SYNTH_NO_FLAT) 0
 set ::env(SYNTH_SHARE_RESOURCES) 1
 set ::env(SYNTH_BUFFERING) 1
-set ::env(SYNTH_SIZING) 0
-set ::env(SYNTH_MAX_FANOUT) 5
-set ::env(SYNTH_STRATEGY) "AREA 0"
+set ::env(SYNTH_SIZING) 1
+set ::env(SYNTH_MAX_FANOUT) 4
+set ::env(SYNTH_STRATEGY) "DELAY 0"
 set ::env(SYNTH_ADDER_TYPE) "YOSYS"
 set ::env(CLOCK_BUFFER_FANOUT) 16
 set ::env(SYNTH_READ_BLACKBOX_LIB) 0

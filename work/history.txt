@@ -221,3 +221,26 @@
   221  rm histort.txt 
   222  ls
   223  history > history.txt
+    1  cd designs/picorv32a/
+    2  cd runs/
+    3  ls -ltr
+    4  cd ..
+    5  ls-ltr
+    6  ls -ltr
+    7  cd runs/
+    8  ls 30-06_13-20/
+    9  ls
+   10  cd 30-06_13-20/
+   11  cd reports/synthesis/
+   12  ls -ltr
+   13  vim 2-opensta.timing.rpt 
+   14  cd ../../../
+   15  cd ../../../
+   16  ls
+   17  cd
+   18  cd Desktop/Advanced-Physical-Design_VSDIAT/
+   19  ls
+   20  cd work
+   21  ls
+   22  vim history.txt 
+   23  history >> history.txt 
