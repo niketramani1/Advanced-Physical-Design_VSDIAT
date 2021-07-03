@@ -837,6 +837,68 @@ The sythesis report is as below and as we can see that there are 1554 instances 
 
 ![image](https://user-images.githubusercontent.com/86380243/124310781-b408e500-db3a-11eb-962f-c4e85a8fa39c.png)
 
+Also there is a lot of negative slack
+
+![image](https://user-images.githubusercontent.com/86380243/124317606-6d6cb800-db45-11eb-99bf-606eca6a2035.png)
+
+In order to fix this we need to do a timing driven synthsis and hence lets see the swithes in the /openlane/configurations directory README file
+
+WE NEED TO CHANGE SYNTH_STATEGY, SYNTH_BUFFERING (reduces wire delay), SYNTH SIZING. We can change values during the flow.
+
+![image](https://user-images.githubusercontent.com/86380243/124318285-698d6580-db46-11eb-9caa-e749b300a26b.png)
+
+In open lane flow, set ::env(SYNTH_STRATEGY)  and all other switches as below(referring the readme file)
+
+![image](https://user-images.githubusercontent.com/86380243/124319466-4368c500-db48-11eb-97a6-30991ea04c3f.png)
+
+We need to do it by going to the synthesis.tcl file in openlane/configuration
+
+![image](https://user-images.githubusercontent.com/86380243/124321766-3fd73d00-db4c-11eb-9506-a14fffad69d4.png)
+
+By changing the above values the slack is met
+
+![image](https://user-images.githubusercontent.com/86380243/124321825-58475780-db4c-11eb-9c12-9680c60711b0.png)
+
+Moving further we need to check if run_floorplan takes our new vsd cell
+
+Also, we need to check if our cell has been added to merged.lef in the runs/tmp folder
+
+![image](https://user-images.githubusercontent.com/86380243/124322213-0e12a600-db4d-11eb-98b5-1840e9724408.png)
+
+run_placement and then opening in magic, we can see our cell
+
+![image](https://user-images.githubusercontent.com/86380243/124324001-35b73d80-db50-11eb-9656-c669909b1940.png)
+
+If we type expand in tkcon, we get the below:
+
+![image](https://user-images.githubusercontent.com/86380243/124324283-b118ef00-db50-11eb-86a5-2a8f490e2fb5.png)
+
+
+LABS ON OPEN STA
+
+Firstly make a my_base.sdc file in the below directory
+
+![image](https://user-images.githubusercontent.com/86380243/124336706-0236dc00-db6d-11eb-9657-3db534155292.png)
+
+![image](https://user-images.githubusercontent.com/86380243/124336730-1aa6f680-db6d-11eb-8d7a-2a52c73e5307.png)
+
+Change the output pin and Input capacitance of pin A (from the typical library) also change the driving cell
+
+Create a pre_sta.conf file in the open lane directory
+
+![image](https://user-images.githubusercontent.com/86380243/124336786-678acd00-db6d-11eb-833b-698ccc56e8b2.png)
+
+Run the command **sta pre_sta.conf** in the same open lane directory
+
+![image](https://user-images.githubusercontent.com/86380243/124336817-9acd5c00-db6d-11eb-8aaf-1ca94505d063.png)
+
+Now we need to meet timing and work on setup. Hold analysis to be done after CTS.
+
+
+
+
+
+
 
 
 
