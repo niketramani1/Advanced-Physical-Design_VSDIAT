@@ -1,0 +1,4 @@
+origin	https://github.com/rtimothyedwards/open_pdks (fetch)
+origin	https://github.com/rtimothyedwards/open_pdks (push)
+origin	https://github.com/google/skywater-pdk.git (fetch)
+origin	https://github.com/google/skywater-pdk.git (push)
