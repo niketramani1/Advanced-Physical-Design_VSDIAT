@@ -1062,7 +1062,17 @@ Step2:Invoke openraod again
    
    The final post route netlist has been successfully created.
    
-   
+ #Acknowledgements
+ 
+ Kunal Ghosh
+ 
+ Nickson Jose
+
+ Mili Anand
+
+ Mansi Mohapatra
+
+ VSD-IAT team
 
 
 
